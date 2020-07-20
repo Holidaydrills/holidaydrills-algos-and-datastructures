@@ -5,11 +5,11 @@
 ### Time and space complexity
 **Time Complexity:**  
 
-| Case          | Time            | Explanation                                                                                                                                   ||
-| ------------- | --------------- | ----------                                                                                                                                       |----  |
-| Worst Case    | O(n^2)          | In the worst case each new item has to be compared to all other items. That happens when the new item is smaller/bigger than all other items. |  |
-| Average Case  | O(n^2)          |                                                                                                                                  |  |
-| Best Case     | O(n)            | A new item is the smallest/biggest already and has to be compared only to one other item.                                                     |  |
+| Case          | Time            | Explanation                                                                    |
+| ------------- | --------------- | ----------                                                                                                                                       
+| Worst Case    | O(n^2)          | In the worst case each new item has to be compared to all other items. That happens when the new item is smaller/bigger than all other items. | 
+| Average Case  | O(n^2)          |                                                                                                                           | 
+| Best Case     | O(n)            | A new item is the smallest/biggest already and has to be compared only to one other item.                 | 
 
 **Space Complexity:**  
 O(1)
@@ -47,8 +47,8 @@ public class InsertionSort {
 
 ### Prove
 * Invariant
-   * At the beginning of each iteration the sub-array A[1...j-1] consists of all previously contained items in the 
-   sub-array A[1...j-1], but in an ordered manner.
+   * At the beginning of each iteration the sub-array A[1...i-1] consists of all previously contained items in the 
+   sub-array A[1...i-1], but in an ordered manner.
 * Initializing:
    * The invariant is true before the first iteration -> It contains only one element, so it's sorted
 * Continuation:
