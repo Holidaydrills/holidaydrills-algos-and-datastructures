@@ -1,14 +1,14 @@
-#Sorting Algorithms
+# Sorting Algorithms
 
 ## Insertion Sort
 
 ### Time and space complexity
 **Time Complexity:**  
 
-| Case          | Time            | Explanation                                                                                                                                   |  |
-| ------------- | --------------- | -------                                                                                                                                       |  |
+| Case          | Time            | Explanation                                                                                                                                   ||
+| ------------- | --------------- | ----------                                                                                                                                       |----  |
 | Worst Case    | O(n^2)          | In the worst case each new item has to be compared to all other items. That happens when the new item is smaller/bigger than all other items. |  |
-| Average Case  | O(n^2)          |                                                                                                                                               |  |
+| Average Case  | O(n^2)          |                                                                                                                                  |  |
 | Best Case     | O(n)            | A new item is the smallest/biggest already and has to be compared only to one other item.                                                     |  |
 
 **Space Complexity:**  
@@ -47,8 +47,8 @@ public class InsertionSort {
 
 ### Prove
 * Invariant
-   * At the beginning of each iteration the sub-array A[1,...,j-1] consists of all previously contained items in the 
-   sub-array A[1,...,j-1], but in an ordered manner.
+   * At the beginning of each iteration the sub-array A[1...j-1] consists of all previously contained items in the 
+   sub-array A[1...j-1], but in an ordered manner.
 * Initializing:
    * The invariant is true before the first iteration -> It contains only one element, so it's sorted
 * Continuation:
@@ -57,5 +57,5 @@ public class InsertionSort {
 * Termination:
    * The for loop ends when i = n (n = last index of the array)
    * We proved that the invariant is true after each iteration
-   * So in this case A[1,...,n] would contain all the items of the sub-array A[1,...,n], but in a ordered manner
-   * As A[1,...,n] is the whole array we proved that the whole array is sorted
+   * So in this case A[1...n] would contain all the items of the sub-array A[1...n], but in a ordered manner
+   * As A[1...n] is the whole array we proved that the whole array is sorted
