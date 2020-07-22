@@ -1,4 +1,6 @@
 # Sorting Algorithms
+* The lower bound for Comparison based sorting algorithm (Merge Sort, Heap Sort, Quick-Sort .. etc) is Ω(nLogn), i.e., 
+they cannot do better than nLogn.
 
 ## Insertion Sort
 
@@ -108,7 +110,45 @@ before this item (e.g. if `tmpArray[3] has the value 5 that means that there are
 each other in the sorted output). This is important if e.g. some "satellite data" is included in the sorted objects and 
 it is important that two object with the same value have the same position relatively to each other at the end
 * Counting Sort is a non-comparing algorithm (maybe useful?)
-* Only if **k < n** . Otherwise space complexity is not advantageous
+* Only if **k < n** . Otherwise space complexity is not advantageous. We can’t use counting sort because counting sort 
+will take O(n2) which is worse than comparison based sorting algorithms. Can we sort such an array in linear time? -> 
+Radix Sort which does digit by digit sorting.
 
 ### Implementation
 You can find the sample implementation [here](../src/main/java/com/holidaydrills/algorithms/sort/CountingSort.java)
+
+## Radix Sort
+
+### Time and space complexity
+
+**Time Complexity:**   
+
+**TBD**
+
+| Case          | Time            | Explanation |
+| ------------- | --------------- | -------     |
+| Worst Case    |                 |             |
+| Average Case  |                 |             |
+| Best Case     |                 |             |
+
+**Space Complexity:**  
+**TBD**
+
+**Stability**  
+* Stable if the underlying sorting algorithm is stable
+
+**recursive / non recursive**  
+* ? 
+
+### Short description
+* Radix Sort sorts the input digit by digit
+* First the digits with the least value
+* It calls a subroutine which is a stable sort algorithm on each digit
+
+### When to use it
+* When a stable sorting algorithm is needed
+* When a sorting algorithm is needed that is non-comparing
+* When the range of numbers is too big for Counting Sort, then Radix Sort can help
+
+### Implementation
+You can find the sample implementation [here](../src/main/java/com/holidaydrills/algorithms/sort/RadixSort.java)
