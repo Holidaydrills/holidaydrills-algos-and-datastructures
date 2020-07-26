@@ -1,6 +1,6 @@
-## Name of the algorithm
+# Name of the algorithm
 
-### Time and space complexity
+## Time and space complexity
 
 **Time Complexity:**  
 
@@ -16,9 +16,9 @@
 
 **recursive / non recursive**   
 
-### Short description
+## Short description
 
-### When to use it
+## When to use it
 
-### Implementation
-You can find the sample implementation [here](../src/main/java/com/holidaydrills/algorithms/sort/InsertionSort)
+## Implementation
+You can find the sample implementation [here](../../../src/main/java/com/holidaydrills/algorithms/sort/InsertionSort)

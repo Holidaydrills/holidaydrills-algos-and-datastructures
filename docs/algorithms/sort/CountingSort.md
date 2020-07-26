@@ -42,6 +42,7 @@ before this item (e.g. if `tmpArray[3] has the value 5 that means that there are
    same value will be added one index before
 
 ## When to use it
+* Counting Sort works well with a defined relatively small range of integers as input
 * When you need a stable sorting algorithm (that is that elements with the same value are at the same position relative to 
 each other in the sorted output). This is important if e.g. some "satellite data" is included in the sorted objects and 
 it is important that two object with the same value have the same position relatively to each other at the end
