@@ -15,6 +15,10 @@
    * The structural induction proof is a proof that the proposition holds for all the minimal structures and that if it 
    holds for the immediate substructures of a certain structure S, then it must hold for S also.
    
+**Sort Algorithms**
+* The lower bound for Comparison based sorting algorithm (Merge Sort, Heap Sort, Quick-Sort .. etc) is Ω(nLogn), i.e., 
+they cannot do better than nLogn.
+   
 ## Algorithms
 | Name           | Time Complexity | Space Complexity |
 | -------------  | :-------------: | -----:           |
@@ -23,6 +27,6 @@
 |                |                 |                  |
 
 ### Sort Algorithms
-* [Insertion Sort](docs/Sort.md)
+* [Insertion Sort](docs/algorithms/sort/InsertionSort.md)
 
 ## Search Algorithms
