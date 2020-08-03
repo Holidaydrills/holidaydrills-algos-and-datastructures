@@ -23,6 +23,7 @@ Non-recursive
        
 
 ## Short description
+Counting sort is a specialization of Bucket Sort where each bucket is of size one
 * Create temporary array `tmpArray` with the same size of the range of all items (e.g. when items are between 0-100 then create 
 array of size 101)
 * Loop over the array `inputArray` that should be sorted

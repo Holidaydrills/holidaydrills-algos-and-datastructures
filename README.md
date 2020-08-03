@@ -23,10 +23,14 @@ they cannot do better than nLogn.
 | Name           | Time Complexity | Space Complexity |
 | -------------  | :-------------: | -----:           |
 | Insertion Sort | O(n^2)          | O(1)             |
-|                |                 |                  |
-|                |                 |                  |
-
+| Counting Sort  | O(n)            | O(k)             |
+| Radix Sort     | O(n*k)          | O(1)             |
+| Bucket Sort    | O(n^2)          | O(n+k)           |
+ 
 ### Sort Algorithms
 * [Insertion Sort](docs/algorithms/sort/InsertionSort.md)
+* [Counting Sort](docs/algorithms/sort/CountingSort.md)
+* [Radix Sort](docs/algorithms/sort/RadixSort.md)
+* [Bucket Sort](docs/algorithms/sort/BucketSort.md)
 
 ## Search Algorithms
