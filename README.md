@@ -25,7 +25,7 @@ they cannot do better than nLogn.
    * *Advantage*: Depth-first search can be easily implemented with recursion.
    * *Disadvantage*: A DFS doesn't necessarily find the shortest path to a node, while breadth-first search does.
 * Breadth first search (BFS)
-   * *Advantage*: A BFS will find the shortest path between the starting point and any other reachable node.
+   * *Advantage*: A BFS will find the shortest path between the starting point and any other reachable node (if it is undirected and unweighted)
    * *Disadvantage*: A BFS on a binary tree generally requires more memory than a DFS.
    
 ## Algorithms
